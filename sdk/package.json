@@ -1,0 +1,45 @@
+{
+  "name": "@tokenlaunch/eliza-solana-sdk",
+  "version": "1.0.0",
+  "description": "SDK for integrating Eliza AI with Solana TokenLaunch Pro for meme coin creation from X/Twitter",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "jest",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@elizaos/core": "^0.1.8-alpha.6",
+    "@elizaos/client": "^0.1.8-alpha.6", 
+    "@elizaos/plugin-bootstrap": "^0.1.8-alpha.6",
+    "@elizaos/plugin-evm": "^0.1.8-alpha.6",
+    "@solana/web3.js": "^1.95.4",
+    "@solana/spl-token": "^0.4.8",
+    "@solana/wallet-adapter-base": "^0.9.23",
+    "twitter-api-v2": "^1.17.2",
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "openai": "^4.73.1",
+    "anthropic": "^0.32.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2",
+    "jest": "^29.7.0",
+    "@types/jest": "^29.5.14"
+  },
+  "keywords": [
+    "eliza",
+    "ai",
+    "solana",
+    "meme-coin",
+    "twitter", 
+    "x",
+    "blockchain",
+    "tokenlaunch"
+  ],
+  "author": "TokenLaunch Pro",
+  "license": "MIT"
+}
